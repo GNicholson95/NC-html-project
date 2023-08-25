@@ -35,6 +35,7 @@ h1, h2 ,h3{
         display: flex;
         justify-content: space-around;
         list-style: none;
+        align-items: center;
       }
       
       #nav-bar .item {
@@ -104,9 +105,17 @@ h3{
 
 .button{
     padding: 3px 4px;
-    background-color: rgb(84, 81, 81);
-    border-radius: 5px;
-    border: none;
+    background-color: rgba(217, 214, 214, 0.8);
+    border-radius: 18px;
+    border: black solid;
+}
+.button a{
+    color: #000000;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #898989;
+    text-decoration: none;
 }
 
 /* --------------- grid --------------- */
@@ -129,6 +138,7 @@ h3{
     font-size: 1.2rem;
     letter-spacing: 1px;
 }
+
 .item-1{
 display: flex;
 background-image: url(elegante.png);
